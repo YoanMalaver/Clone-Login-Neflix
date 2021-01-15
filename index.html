@@ -8,16 +8,16 @@
   </head>
   <body>
     <!-- inicio header -->
-    <header>
-      <img src="" alt="Logo neflix" />
+    <header class="header">
+      <img src="./img/logo_netflix.png" alt="Logo neflix" />
     </header>
     <!-- fin header -->
 
     <!-- inicio main con formulario -->
-    <main>
-      <section>
-        <form action="">
-          <h1>Sign in</h1>
+    <main class="login">
+      <section class="login__container">
+        <h2>Sign in</h2>
+        <form class="login__container--for" action="">
           <label for="nombre">
             <span>Email or number phone</span>
             <input type="text" id="nombre" placeholder="Tú Correo" />
@@ -27,7 +27,7 @@
             <input type="password" id="inicio-platzi" />
           </label>
           <button type="submit">Sign in</button>
-          <div>
+          <div class="login__container--remember-me">
             <label>
               <input type="checkbox" name="" id="cbox1" value="checlbox" />
               Remember me
@@ -37,10 +37,13 @@
         </form>
 
         <!-- login redes sociales -->
-        <section>
-          <div><img src="" alt="icon facebook" />Login With Facebook</div>
+        <section class="login__container--social-media">
+          <div>
+            <img src="./img/icono_facebook.png" alt="icon facebook" />Login With
+            Facebook
+          </div>
         </section>
-        <p>
+        <p class="login__container--register">
           New to Neflix?
           <a href="../registro/register.html">Sign up now</a>
         </p>
@@ -49,7 +52,7 @@
     <!-- fin formulario -->
 
     <!-- inicio footer -->
-    <footer>
+    <footer class="footer">
       <p>Questions? Call 546 546 546</p>
       <ul>
         <li>Faq</li>
@@ -60,7 +63,9 @@
         <li>Corporate information</li>
       </ul>
       <div>
-        <label for="idioms"><img src="" alt="logo idiomas" /></label>
+        <label for="idioms"
+          ><img src="./img/icono_global.png" alt="logo idiomas"
+        /></label>
         <select name="idioms" id="idioms">
           <option value="volvo">English</option>
           <option value="saab">Spanish</option>
