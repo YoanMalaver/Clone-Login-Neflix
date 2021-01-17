@@ -16,17 +16,17 @@
     <!-- inicio main con formulario -->
     <main class="login">
       <section class="login__container login__wrapper">
-        <h2>Sign in</h2>
-        <form class="login__container--for" action="">
-          <label for="nombre">
-            <span>Email or number phone</span>
-            <input type="text" id="nombre" placeholder="Tú Correo" />
-          </label>
-          <label for="inicio-platzi">
-            <span>Password</span>
-            <input type="password" id="inicio-platzi" />
-          </label>
-          <button type="submit">Sign in</button>
+        <h2>Sign In</h2>
+        <form class="login__container--form" action="">
+          <div class="group">
+            <input class="input" type="text" id="nombre" placeholder="" />
+            <label class="label" for="nombre">Email or phone number</label>
+          </div>
+          <div class="group">
+            <input class="input" type="password" />
+            <label class="label" for="">Password</label>
+          </div>
+          <button class="button" type="submit">Sign In</button>
           <div class="login__container--remember-me">
             <label>
               <input type="checkbox" name="" id="cbox1" value="checlbox" />
