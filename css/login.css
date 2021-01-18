@@ -49,12 +49,12 @@ html::before {
 }
 .login h2 {
   /* margin-top: 40px; */
-  font-size: 30px;
+  font-size: 32px;
 }
 .login__container {
   border-radius: 4px;
   color: white; /* color de letra*/
-  padding: 60px 60px 40px;
+  padding: 60px 68px 40px;
   min-height: 660px;
   width: 450px;
   display: flex;
@@ -139,7 +139,9 @@ input:focus ~ label {
   margin-top: 10px;
   font-size: 13px;
 }
-
+.login__container--remember-me label {
+  font-size: inherit;
+}
 .login__container--remember-me a {
   color: white;
   font-size: inherit;
@@ -193,7 +195,6 @@ input:focus ~ label {
 }
 .footer__container ul {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
 }
 .footer__container ul li {
