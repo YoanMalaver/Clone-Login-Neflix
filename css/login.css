@@ -236,3 +236,31 @@ input:valid ~ label {
 .footer__idioms label {
   margin-right: 5px;
 }
+/* media querys responsive*/
+@media only screen and (max-width: 740px) {
+  .login {
+    min-height: calc(90vh - 240px);
+    border-bottom: 1px solid rgb(82, 82, 82);
+  }
+  .login__wrapper {
+    width: 100%;
+    min-height: 100%;
+    background-color: transparent;
+    border: none;
+    padding: 0px;
+  }
+  .login,
+  .header,
+  .footer {
+    background-color: #000;
+  }
+  .footer {
+    margin-top: 0;
+  }
+  .footer__container {
+    margin: 0 5%;
+  }
+  .links__items {
+    width: 33%;
+  }
+}
