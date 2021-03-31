@@ -96,7 +96,7 @@ form .group {
   position: relative;
 }
 
-/* animacion y ajustes del label */
+/* animacion y ajustes label */
 .login__container--form label {
   font-size: var(--textfont-line);
 }
